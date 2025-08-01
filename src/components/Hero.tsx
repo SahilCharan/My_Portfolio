@@ -21,12 +21,12 @@ const Hero = () => {
               </h1>
               
               <p className="mt-3 text-base text-gray-600 dark:text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 animate-fade-in-up animation-delay-400">
-                Building innovative solutions at the intersection of web development and artificial intelligence. Open to opportunities and freelance projects.
+                Curious and hands-on full-stack developer with a solid grip on backend, frontend, and AI-powered automation. I enjoy building things that work — from scalable apps to smart assistants. Strong in Java, Python, React, and systems thinking. Currently building LLM-based tools at Dwary Intech to solve real-world business pain points. Passionate about building impactful products and solving complex problems..
               </p>
               
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start space-x-4 animate-fade-in-up animation-delay-600">
                 <a
-                  href="https://drive.google.com/file/d/1s5tqkwUThW_NPAZJOuF5QIweM7ZbiuK9/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1vXn4N8CmS8ppN0AvHY8X9nzFrGisWU_C/view?usp=sharing"
                   className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <Download className="w-5 h-5 mr-2" />
