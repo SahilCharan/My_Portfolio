@@ -20,7 +20,14 @@ const About = () => {
     { name: 'Git', category: 'DevOps', level: 85 },
     { name: 'CI/CD', category: 'DevOps', level: 75 },
     { name: 'RESTful APIs', category: 'Backend', level: 90 },
-    { name: 'GraphQL', category: 'Backend', level: 70 }
+    { name: 'GraphQL', category: 'Backend', level: 70 },
+    { name: 'LLMs', category: 'GenAI', level: 80},
+    { name: 'LangChain', category: 'GenAI', level: 75},
+    { name: 'n8n', category: 'GenAI', level: 100},
+    { name: 'Prompt Engineering', category: 'GenAI', level: 100},
+    { name: 'RAG', category: 'GenAI', level: 80},
+    { name: 'DSA', category: 'Backend', level: 80}
+    
   ];
 
   const skillCategories = [
@@ -29,10 +36,16 @@ const About = () => {
     { name: 'Database', icon: <Database className="h-6 w-6" />, color: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200' },
     { name: 'DevOps', icon: <GitBranch className="h-6 w-6" />, color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200' },
     { name: 'Cloud', icon: <Cloud className="h-6 w-6" />, color: 'bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200' },
-    { name: 'AI/ML', icon: <Lightbulb className="h-6 w-6" />, color: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200' }
+    { name: 'AI/ML', icon: <Lightbulb className="h-6 w-6" />, color: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200' },
+    { name: 'GenAI', icon: <AIAgent className="h-6 w-6" />, color: 'bg-indigo-100 text-yellow-800 dark:bg-red-900 dark:text-pink-200' }
   ];
 
   const experiences = [
+    {
+      role: 'Founder - AI ENGINEER',
+      company: 'Dwary Intech',
+      description: 'Developed and deployed 12+ custom LLM-powered automation tools with Python/n8n/OpenAI, reducing manual HR and scraping tasks by up to 50%. Built recruiter assistant pipelines using RAG/LangChain, increasing candidate evaluation efficiency by 70% for 5+ enterprise clients. Delivered GenAI to 10+ clients, improving individual task speeds by 50–60%. Architected internal tools in TypeScript/React/Supabase, enabling real-time workflow tracking for teams of 10+ users.Mentored 4+ junior devs and managed 15+ freelance client projects, achieving 100% on-time delivery and high client satisfaction.'
+    },
     {
       role: 'Software Developer Intern',
       company: 'CourseKhoj',
