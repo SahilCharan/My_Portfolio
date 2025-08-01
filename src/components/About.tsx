@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Code, Monitor, Server, Database, Cloud, GitBranch, Lightbulb } from 'lucide-react';
+import { CheckCircle2, Code, Monitor, Server, Database, Cloud, GitBranch, Lightbulb, hat-glasses } from 'lucide-react';
 
 const About = () => {
   const skills = [
@@ -37,7 +37,7 @@ const About = () => {
     { name: 'DevOps', icon: <GitBranch className="h-6 w-6" />, color: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200' },
     { name: 'Cloud', icon: <Cloud className="h-6 w-6" />, color: 'bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200' },
     { name: 'AI/ML', icon: <Lightbulb className="h-6 w-6" />, color: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200' },
-    { name: 'GenAI', icon: <AIAgent className="h-6 w-6" />, color: 'bg-indigo-100 text-yellow-800 dark:bg-red-900 dark:text-pink-200' }
+    { name: 'GenAI', icon: <hat-glasses className="h-6 w-6" />, color: 'bg-indigo-100 text-yellow-800 dark:bg-red-900 dark:text-pink-200' }
   ];
 
   const experiences = [
